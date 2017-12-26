@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cui-list": "/CUI_Components/list/list"
+  }
+}

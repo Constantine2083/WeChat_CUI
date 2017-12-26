@@ -1,0 +1,96 @@
+/* CUI_Components/button/button.wxss */
+/*
+* 
+*
+* 
+*/
+.cui-btn{
+  display: inline-block;
+  text-align: center;
+  margin: 0 15rpx
+}
+/*  控制按钮的状态： info/default/warn  */
+.cui-btn__type-info{
+  background-color: #fcfcfc;
+  border: solid 1px #eee;
+  color: #616161;
+}
+.cui-btn__type-primary{
+  background-color: #409eff;
+  border: solid 1px #409eff;
+  color: #fff;
+}
+.cui-btn__type-warn{
+  background-color: #f44336;
+  border: solid 1px #f44336;
+  color: #fff;
+}
+.cui-btn__type-wx{
+  background-color: #1aad19;
+  border: solid 1px #1aad19;
+  color: #fff;
+}
+
+
+/*  控制按钮的大小： mini/medium/big/full  */
+.cui-btn__size-mini{
+  border-radius: 3px;
+  padding: 14rpx 26rpx;
+  font-size: 28rpx;
+}
+.cui-btn__size-medium{
+  border-radius: 4px;
+  padding: 16rpx 36rpx;
+  font-size: 36rpx;
+}
+
+.cui-btn__size-big{
+  border-radius: 5px;
+  padding: 26rpx 46rpx;
+  font-size: 36rpx;
+}
+
+.cui-btn__size-full{
+  border-radius: 5px;
+  padding: 30rpx 0; 
+  width: 90%;
+  font-size: 38rpx;
+  margin: 0 5%;
+}
+
+/*  控制按钮的阴影属性  */
+.cui-btn__shadow{
+  box-shadow: 1px 1px 6px #e0e0e0;
+  border: none;
+}
+
+
+
+/*  控制按钮点击时的效果（需要写在下面，否则会出现样式被覆盖的情况）  */
+/* .cui-btn__hover{
+  background-color: #e0e0e0;
+  color: #fafafa;
+} */
+.cui-btn__hover-info{
+  background-color: #f6f6f6;
+  color: #212121;
+}
+.cui-btn__hover-primary{
+  background-color: #3a8ee6;
+  border: solid 1px #3a8ee6;
+  color: #fff;
+}
+.cui-btn__hover-warn{
+  background-color: #d32f2f;
+  border: solid 1px #d32f2f;
+  color: #fff;
+}
+.cui-btn__hover-wx{
+  background-color: #119730;
+  border: solid 1px #119730;
+  color: #fff;
+}
+.cui-btn__shadow-hover{
+  box-shadow: none;
+  border: none;
+}

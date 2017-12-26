@@ -1,0 +1,22 @@
+<!--pages/demoBtn/demoBtn.wxml-->
+<view class='cui__content'>
+  <view class='demo-title'>按钮-大小：</view>
+  <cui-button btn-type="info" size='mini' shadow='no' text="mini" bind:clickFun="btnClickFun"></cui-button>
+  <cui-button btn-type="info" size='medium' shadow="no" text="medium" bind:clickFun="btnClickFun"></cui-button>
+  <cui-button btn-type="info" size='big' shadow="no" text="big按钮" bind:clickFun="btnClickFun"></cui-button>
+
+  <cui-button btn-type="info" size='full' shadow="yes" text="full按钮" bind:clickFun="btnClickFun"></cui-button>
+  <view class='demo-title'>按钮-阴影：</view>
+  <cui-button btn-type="info" size='medium' shadow="no" text="shadow:no" bind:clickFun="btnClickFun"></cui-button>
+  <cui-button btn-type="info" size='medium' shadow="yes" text="shadow:yes" bind:clickFun="btnClickFun"></cui-button>
+
+  <view class='demo-title'>按钮-状态：</view>
+  <cui-button btn-type="info" size='mini' shadow='no' text="info" bind:clickFun="btnClickFun"></cui-button>
+  <cui-button btn-type="primary" size='mini' shadow="no" text="primary" bind:clickFun="btnClickFun"></cui-button>
+  <cui-button btn-type="warn" size='mini' shadow="no" text="warn" bind:clickFun="btnClickFun"></cui-button>
+
+  <cui-button btn-type="wx" size='mini' shadow="no" text="wxStyle" bind:clickFun="btnClickFun"></cui-button>
+  <view class='demo-title'>按钮-事件：</view>
+
+  <cui-button btn-type="wx" size='medium' fun-data='{{tempBtnFunData}}' shadow="yes" text="点击事件" bind:clickFun="btnClickFun"></cui-button>
+</view>

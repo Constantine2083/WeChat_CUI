@@ -1,0 +1,2 @@
+<!--CUI_Components/button/button.wxml-->
+<view data-name="cui-btn" class='cui-btn {{"cui-btn__type-"+btnType}} {{"cui-btn__size-"+size}} {{shadow == "yes" ? "cui-btn__shadow" : ""}} {{class}}' hover-class='cui-btn__hover {{"cui-btn__hover-"+btnType}} {{shadow == "yes" ? "cui-btn__shadow-hover" : ""}}' bindtap='insideFun'>{{text}}</view>

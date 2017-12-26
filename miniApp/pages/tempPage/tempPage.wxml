@@ -1,0 +1,5 @@
+<!--pages/tempPage/tempPage.wxml-->
+<text>这是一个临时页面</text>
+<view style='margin: 25vh auto; display: flex; justify-content: center' >
+<cui-button btn-type="wx" size='medium' shadow="yes" text="返回上一页" bind:clickFun="btnClickFun"></cui-button>
+</view>

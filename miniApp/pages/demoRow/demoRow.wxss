@@ -1,0 +1,4 @@
+/* pages/demoRow/demoRow.wxss */
+.demo-title{
+  margin-left: 20rpx;
+}

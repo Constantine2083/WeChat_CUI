@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/componentAll/componentAll",
+    "pages/demoBtn/demoBtn",
+    "pages/demoRow/demoRow",
+    "pages/tempPage/tempPage",
+    "pages/demoCard/demoCard"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

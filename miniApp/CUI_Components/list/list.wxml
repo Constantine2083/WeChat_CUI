@@ -1,0 +1,8 @@
+<!--CUI_Components/list/list.wxml-->
+<view class='cui-list' hover-class="cui-list__hover" bindtap='insideFun'>
+  <view class='cui-list__leftBox'>
+    <view class='cui-list__leftImg' wx:if="{{leftImg != ''}}" style='background-image: url({{leftImg}})'></view>
+    <view>{{text}}</view>
+  </view>
+  <view wx:if="{{showIcon == 'yes'}}">></view>
+</view>

@@ -1,0 +1,4 @@
+<!--pages/componentAll/componentAll.wxml-->
+<cui-list text="按钮" url="/pages/demoBtn/demoBtn" show-icon="yes" jump-type="navigate" fun-data="{{tempBtnFunData}}" bind:clickFun="clickTheList"></cui-list>
+<cui-list text="list 行" url="/pages/demoRow/demoRow" show-icon="yes" jump-type="navigate" fun-data="{{tempBtnFunData}}" bind:clickFun="clickTheList"></cui-list>
+<cui-list text="card 卡片" url="/pages/demoCard/demoCard" show-icon="yes" jump-type="navigate" fun-data="{{tempBtnFunData}}" bind:clickFun="clickTheList"></cui-list>

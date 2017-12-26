@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cui-button": "/CUI_Components/button/button"
+  }
+}

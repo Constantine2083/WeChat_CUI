@@ -1,0 +1,8 @@
+/* pages/componentAll/componentAll.wxss */
+.cui__content{
+  padding: 18rpx;
+}
+.demo-title{
+  margin-top: 40rpx;
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,13 @@
+<!--pages/demoRow/demoRow.wxml-->
+<view class='demo-title'>list-是否带图片：</view>
+<cui-list text="带图片的list" left-img="/images/temp.png" show-icon="yes" jump-type="navigate" fun-data="{{tempBtnFunData}}" ></cui-list>
+<cui-list text="不带图片的list" left-img="" show-icon="yes" jump-type="navigate" fun-data="{{tempBtnFunData}}"></cui-list>
+
+
+<view class='demo-title'>list-是否展示右边的图标</view>
+<cui-list text="默认展示右边的图标" jump-type="navigate" fun-data="{{tempBtnFunData}}"></cui-list>
+<cui-list text="不展示右边的图标" left-img="" show-icon="no" jump-type="navigate" fun-data="{{tempBtnFunData}}"></cui-list>
+
+<view class='demo-title'>list-点击事件</view>
+<cui-list text="不传入URL触发点击事件" jump-type="navigate" fun-data="{{tempBtnFunData}}" bind:clickFun="clickTheList"></cui-list>
+<cui-list text="点击跳转" url="/pages/tempPage/tempPage" left-img="" jump-type="navigate" fun-data="{{tempBtnFunData}}"></cui-list>
